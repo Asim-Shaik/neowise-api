@@ -9,6 +9,10 @@ const serviceSchema = new mongoose.Schema({
     type: String,
     trim: true,
   },
+  shortdesc: {
+    type: String,
+    trim: true,
+  },
   image: {
     type: String,
   },
