@@ -16,7 +16,7 @@ export const createUser = async (req, res) => {
     res.status(500).json(err);
   }
 };
-export const getUser = async (req, res) => {
+export const getAllUser = async (req, res) => {
   try {
     const user = await User.find({});
     res.status(200).json({ user });
